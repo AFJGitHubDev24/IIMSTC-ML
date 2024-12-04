@@ -1,1 +1,4 @@
 Hi!
+
+Assignment:- Apply linear regression, logistic regression and decision regress
+- Plot the graph for decision classifier
