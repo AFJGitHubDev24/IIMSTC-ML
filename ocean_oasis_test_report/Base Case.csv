@@ -1,0 +1,33 @@
+Case,Disc,Item,Unit,Buoy,Disc
+Without Disc,,Mass,Tons,113.06,-
+Without Disc,,Draft,Meters,8.02,-
+Without Disc,,VCG,Meters,6.10,-
+Without Disc,,Rxx,Meters,4.05,-
+Without Disc,,Rzz,Meters,2.65,-
+Without Disc,,VCB,Meters,5.30,-
+Without Disc,,WLA,m²,27.88 (3),-
+Without Disc,,IxIy,m⁴,127.403(3),-
+Fixed at MSL,Original Set-Up,Mass,Tons,116.85,-
+Fixed at MSL,Original Set-Up,Draft,Meters,8.00,-
+Fixed at MSL,Original Set-Up,VCG,Meters,6.18,-
+Fixed at MSL,Original Set-Up,Rxx,Meters,4.02,-
+Fixed at MSL,Original Set-Up,Rzz,Meters,2.62,-
+Fixed at MSL,Original Set-Up,VCB,Meters,5.29,0.20
+Fixed at MSL,Original Set-Up,WLA,m²,27.88 (3),11.9 (3)
+Fixed at MSL,Original Set-Up,IxIy,m⁴,127.403(3),11.362(3)
+Fixed Above Surface,Original Set-Up,Mass,Tons,116.85,-
+Fixed Above Surface,Original Set-Up,Draft,Meters,8.20,-
+Fixed Above Surface,Original Set-Up,VCG,Meters,6.24,-
+Fixed Above Surface,Original Set-Up,Rxx,Meters,4.07,-
+Fixed Above Surface,Original Set-Up,Rzz,Meters,2.62,-
+Fixed Above Surface,Original Set-Up,VCB,Meters,5.43,-
+Fixed Above Surface,Original Set-Up,WLA,m²,27.88 (3),-
+Fixed Above Surface,Original Set-Up,IxIy,m⁴,127.403(3),-
+Free Floating,,Mass,Tons,111.30(1),4.50
+Free Floating,,Draft,Meters,8.02,0.39
+Free Floating,,VCG,Meters,6.04,1.21
+Free Floating,,Rxx,Meters,4.05,2.21
+Free Floating,,Rzz,Meters,2.66,1.26
+Free Floating,,VCB,Meters,5.30,0.20
+Free Floating,,WLA,m²,27.88 (3),11.9 (3)
+Free Floating,,IxIy,m⁴,127.4 (3),11.362(3)
