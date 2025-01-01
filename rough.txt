@@ -1,0 +1,57 @@
+import struct 
+
+import pandas as pd 
+
+  
+
+# File paths 
+
+binary_file = r"calib_irr_002.prn" 
+
+output_csv = r"output1.csv" 
+
+  
+
+# Function to parse binary data 
+
+def binary_to_csv(binary_file, output_csv): 
+
+    data = [] 
+
+  
+
+    with open(binary_file, 'rb') as file: 
+
+        while chunk := file.read(8):  # Assuming each value is a float (4 bytes) and we have two per row (8 bytes) 
+
+            try: 
+
+                # Unpack two floats (4 bytes each) per row 
+
+                frequency, spectrum = struct.unpack('ff', chunk) 
+
+                data.append({"frequency (Hz)": frequency, "m**2/Hz": spectrum}) 
+
+            except struct.error: 
+
+                # Handle any incomplete chunks 
+
+                break 
+
+  
+
+    # Convert to DataFrame and save to CSV 
+
+    df = pd.DataFrame(data) 
+
+    df.to_csv(output_csv, index=False) 
+
+    print(f"CSV file saved at {output_csv}") 
+
+  
+
+# Execute the function 
+
+binary_to_csv(binary_file, output_csv) 
+
+ 
